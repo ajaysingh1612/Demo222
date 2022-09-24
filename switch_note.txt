@@ -1,0 +1,56 @@
+---------------------switch sample code------------------  
+int x=11;
+switch(x)
+{
+
+case 11:  System.out.println("hello");
+           break;
+
+case 44:  System.out.println("welcome");
+           break;
+
+default : System.out.println("sorry");
+}
+---------------------switch with character type---------------
+char x='a';
+
+switch(x)
+{
+
+case 'a':
+case 'A':       System.out.println("hello");     break;
+
+case 'b':  System.out.println("welcome");
+           break;
+
+default : System.out.println("sorry");
+}
+----------------------------------switch with string ------
+
+String oper="add322323"
+
+switch(oper)
+{
+
+
+case "add":      System.out.println("hello");
+                  break;                 
+
+case "subtract":  System.out.println("welcome");
+                  break;
+
+default : System.out.println("sorry");
+
+}
+
+-----------------
+note '
+switch can be written without default 
+2) default can written anywhere in switch
+
+-------------------------------------------------
+
+
+
+
+
